@@ -11,9 +11,92 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 /* Header */
 header {
-    background-color: coral;
+    background-color: black; 
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+#logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Remove default link styling */
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navigation Menu */
+nav {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+/* Menu Items */
+#menu {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    padding: 10px 0;
+}
+
+/* Menu Links */
+#menu a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    padding: 8px 15px;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+
+#menu a:hover {
+    color: #007bff;
+}
+
+/* Active Link */
+.active {
+    border-bottom: 2px solid #007bff;
+}
+
+/* Nav Toggle (Hidden Checkbox) */
+#nav-toggle {
+    display: none;
+}
+
+/* Plane Icon */
+.nav-toggle-label {
+    font-size: 1.8rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Show Menu When Toggled */
+#nav-toggle:checked ~ nav {
+    display: block;
 }
 
 /* Main content */
@@ -25,7 +108,7 @@ main {
 
 /* Footer */
 #social-networks {
-    text-align: center; /* Fixed typo */
+    text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: center; /* Centers items */
