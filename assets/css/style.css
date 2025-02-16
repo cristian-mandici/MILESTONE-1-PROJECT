@@ -1,0 +1,21 @@
+/* ASTERISK SELECTOR TO OVERRIDE DEFAULT BROWSER STYLES ADDDED BY DEFAULT */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: coral;
+}
+
+/* Main content */
+main {
+    background-color: lightblue;
+}
+
+/* Footer */
+footer{
+    background-color: yellow;
+}
