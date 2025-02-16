@@ -24,6 +24,30 @@ main {
 }
 
 /* Footer */
-footer {
+#social-networks {
+    text-align: center; /* Fixed typo */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; /* Centers items */
+    gap: 20px; /* Adds spacing between icons */
+    list-style: none;
+    background-color: #f8f8f8; /* Light background for better contrast */
+    padding: 20px;
+}
+/* Social Icons */
+#social-networks li {
+    display: inline-block; /* Ensures proper spacing */
+}
 
-]
+#social-networks i {
+    font-size: 1.6rem; /* Better responsive scaling */
+    padding: 10px;
+    color: #3a3a3a;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+#social-networks i:hover {
+    color: #007bff; /* Change color on hover (blue) */
+    transform: scale(1.2); /* Slightly enlarges icon */
+}
