@@ -108,7 +108,7 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus to push footer down */
     flex: 1 0 auto;
-    margin-top: 60px;
+    margin-top: 55px;
 }
 
 /* Footer */
@@ -139,3 +139,6 @@ main {
     color: #007bff; /* Change color on hover (blue) */
     transform: scale(1.2); /* Slightly enlarges icon */
 }
+
+/* Responsive design */
+
