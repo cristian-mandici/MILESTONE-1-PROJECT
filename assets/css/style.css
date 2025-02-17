@@ -149,7 +149,51 @@ main {
 }
 
 /* Why choose Traveleos section */
+.why-choose-us {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.7); /* Darker translucent background */
+    color: #f1f1f1; /* Light text for contrast */
+    border-radius: 10px;
+    text-align: left;
+}
 
+.why-choose-us h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #ffcc00; /* Highlighted color */
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-choose-us ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.why-choose-us ul li::before {
+    content: "x";
+    color: #ffcc00;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.why-choose-us a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.why-choose-us a:hover {
+    text-decoration: underline;
+}
 
 /* Footer */
 #social-networks {
