@@ -231,14 +231,10 @@ main {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
-    /* Smooth hover effect */
+
 }
 
-/* Hover effect to slightly enlarge images */
-.gallery-item img:hover {
-    transform: scale(1.05);
-}
+
 
 /* Styling for image captions */
 .gallery-item p {
@@ -289,4 +285,3 @@ main {
 }
 
 /* Responsive design */
-
