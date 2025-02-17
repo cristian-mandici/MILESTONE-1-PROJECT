@@ -16,7 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
-     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 
 </head>
@@ -42,7 +42,24 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-regular fa-envelope"></i></i> Sign up for Traveleos emails to be the first to see
+                    inspiring content, news and exclusive offers.</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <button type="submit" class="join-button">Sign up</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
@@ -59,8 +76,8 @@
             </li>
         </ul>
     </footer>
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/7ef7c6fec5.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7ef7c6fec5.js" crossorigin="anonymous"></script>
 
 </body>
 
