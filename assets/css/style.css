@@ -18,7 +18,7 @@ body {
 
 /* Header */
 header {
-    background-color: black; 
+    background-color: black;
     padding: 20px 0 20px;
     position: fixed;
     top: 0;
@@ -101,7 +101,7 @@ nav {
 }
 
 /* Show Menu When Toggled */
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -114,18 +114,23 @@ main {
 }
 
 .main-content {
-    max-width: 500px; /* Ensures readability */
+    max-width: 500px;
+    /* Ensures readability */
     padding: 20px;
     position: absolute;
     top: 50%;
     left: 5%;
     transform: translateY(-50%);
     text-align: left;
-    color: #d1d1d1; /* Darker text color for better readability */
-    background: rgba(0, 0, 0, 0.575); /* Darker translucent background */
+    color: #d1d1d1;
+    /* Darker text color for better readability */
+    background: rgba(0, 0, 0, 0.575);
+    /* Darker translucent background */
     border-radius: 10px;
-    user-select: none; /* Prevents text selection */
-    pointer-events: none; /* Makes it non-clickable */
+    user-select: none;
+    /* Prevents text selection */
+    pointer-events: none;
+    /* Makes it non-clickable */
 }
 
 .main-content h1 {
@@ -137,7 +142,8 @@ main {
 .main-content p {
     font-size: 18px;
     line-height: 1.7;
-    opacity: 0.9; /* Slight fade for a softer look */
+    opacity: 0.9;
+    /* Slight fade for a softer look */
 
 }
 
@@ -153,8 +159,10 @@ main {
     max-width: 700px;
     margin: 50px auto;
     padding: 30px;
-    background: rgba(0, 0, 0, 0.7); /* Darker translucent background */
-    color: #f1f1f1; /* Light text for contrast */
+    background: rgba(0, 0, 0, 0.7);
+    /* Darker translucent background */
+    color: #f1f1f1;
+    /* Light text for contrast */
     border-radius: 10px;
     text-align: left;
 }
@@ -162,7 +170,8 @@ main {
 .why-choose-us h2 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #ffcc00; /* Highlighted color */
+    color: #ffcc00;
+    /* Highlighted color */
 }
 
 .why-choose-us ul {
@@ -198,33 +207,85 @@ main {
 /* Gallery */
 
 
+/* Gallery container with a grid layout */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three images per row */
+    gap: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    /* Ensure it takes all width of the page */
+}
+
+/* Individual gallery items */
+.gallery-item {
+    text-align: center;
+}
+
+/* Styling for images */
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    /* Smooth hover effect */
+}
+
+/* Hover effect to slightly enlarge images */
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for image captions */
+.gallery-item p {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
 /* Footer */
 #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    justify-content: center; /* Centers items */
-    gap: 20px; /* Adds spacing between icons */
+    justify-content: center;
+    /* Centers items */
+    gap: 20px;
+    /* Adds spacing between icons */
     list-style: none;
-    background-color: #f8f8f8; /* Light background for better contrast */
+    background-color: #f8f8f8;
+    /* Light background for better contrast */
     padding: 20px;
 }
+
 /* Social Icons */
 #social-networks li {
-    display: inline-block; /* Ensures proper spacing */
+    display: inline-block;
+    /* Ensures proper spacing */
 }
 
 #social-networks i {
-    font-size: 1.6rem; /* Better responsive scaling */
+    font-size: 1.6rem;
+    /* Better responsive scaling */
     padding: 10px;
     color: #3a3a3a;
-    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Smooth hover effect */
 }
 
 /* Hover Effect */
 #social-networks i:hover {
-    color: #007bff; /* Change color on hover (blue) */
-    transform: scale(1.2); /* Slightly enlarges icon */
+    color: #007bff;
+    /* Change color on hover (blue) */
+    transform: scale(1.2);
+    /* Slightly enlarges icon */
 }
 
 /* Responsive design */
