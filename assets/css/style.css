@@ -344,3 +344,51 @@ main {
 }
 
 /* Responsive design */
+
+/* Media query for tablets and desktops */
+@media screen and (min-width: 768px) {
+    /* Hide nav toggle label (plane icon) */
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Show navigation menu */
+    nav {
+        display: block;
+        position: static;
+        background: transparent;
+        width: auto;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    /* Display menu items horizontally */
+    #menu {
+        display: flex;
+        gap: 25px;
+        padding-right: 10%;
+    }
+
+    /* Adjust menu item spacing */
+    #menu li {
+        padding: 0;
+    }
+
+    /* Menu link styling for desktop */
+    #menu a {
+        color: #ffffff;
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+    }
+
+    /* Hover effect for desktop links */
+    #menu a:hover {
+        color: #007bff;
+        transform: translateY(-2px);
+    }
+
+    /* Active state styling */
+    .active {
+        border-bottom: 2px solid #007bff;
+    }
+}
