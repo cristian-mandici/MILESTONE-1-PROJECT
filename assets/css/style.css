@@ -272,11 +272,37 @@ main {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Heading Styling */
+
 #signup-form h2 {
     font-size: 1.5rem;
     margin-bottom: 15px;
     font-weight: bold;
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.join-button {
+    width: 100%;
+    padding: 12px;
+    background: #083a5bc6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.join-button:hover {
+    background: #e07b00;
 }
 
 /* Footer */
