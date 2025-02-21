@@ -45,3 +45,17 @@ A responsive travel website designed to inspire wanderlust, featuring destinatio
 ![W3C TEST SIGNUP](assets/images/gallery-w3-test.png)
 
 ![W3C CSS TEST](assets/images/css-w3c-test.png)
+
+
+## Delpoyment ##
+
+-GitHub-
+
+The project was deployed to GitHub following the next steps :
+* Log in to GitHub and locate your Git Repository page;
+* Select the Repository you want to deploy;
+* Locate the "Settings" button on the top of the page;
+* On the left side find "Code and automation" list then select "Pages";
+* Under "Source", click the dropdown called "None" and select branch "Main" then select folder "root" ;
+* Select "Save" wait 2 minutes and refresh the page
+* Go to top corner left "<> Code" then on the right hand side find "Deployments" then see your deployed link at the top of the page.
