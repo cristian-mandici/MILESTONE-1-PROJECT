@@ -47,9 +47,9 @@ A responsive travel website designed to inspire wanderlust, featuring destinatio
 ![W3C CSS TEST](assets/images/css-w3c-test.png)
 
 
-## Delpoyment ##
+# Delpoyment
 
--GitHub-
+## GitHub
 
 The project was deployed to GitHub following the next steps :
 * Log in to GitHub and locate your Git Repository page;
@@ -81,3 +81,52 @@ Attached Wireframes:
 ![MOBILE VIEW - INDEX](assets/images/mobile-index.png)
 ![MOBILE VIEW - GALLERY](assets/images/mobile-gallery.png)
 ![MOBILE VIEW - SIGN UP](assets/images/mobile-signup.png)
+
+
+
+# User Experience (UX) / User Stories  
+
+## User Stories 
+1. First-Time Visitor 
+   - Understand the website’s purpose quickly.  
+   - Navigate easily between sections.  
+
+2. Frequent Traveler 
+   - View travel inspiration and service benefits.  
+   - Sign up for updates with minimal effort.  
+
+3. Mobile User 
+   - Access all features seamlessly on smaller screens.  
+   - Experience fast loading times.  
+
+
+
+# Testing  
+
+## Testing User Stories
+
+### 1. First-Time Visitor Goals 
+- Goal: Clear understanding of the service.  
+  -Met: Hero section text explaining travel offerings.  
+
+- Goal: Easy navigation.  
+  -Met: Responsive menu (mobile dropdown, desktop horizontal menu).  
+
+### 2. Frequent Traveler Goals  
+- Goal: View travel inspiration.  
+  - Met: Gallery section with optimized images.  
+
+- Goal: Simple signup process.  
+  - Met: Clean form design with essential fields only.  
+
+### 3. Mobile User Goals  
+- Goal: Mobile friendly experience.  
+  - Met: Mobile responsive design (see attachments).  
+
+- Goal: Fast performance.  
+  - Met: Optimized images and minimal code.  
+
+![screenshot](assets/images/test1.png)
+![screenshot](assets/images/test2.png)
+![screenshot](assets/images/test3.png)
+![screenshot](assets/images/test4.png)

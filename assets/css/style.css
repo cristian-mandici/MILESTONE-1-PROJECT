@@ -76,6 +76,7 @@ nav {
     padding: 8px 15px;
     display: inline-block;
     transition: color 0.3s ease-in-out;
+    white-space: nowrap; /* Prevent text wrapping */
 }
 
 #menu a:hover {
@@ -218,7 +219,7 @@ main {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     /* Ensuring header doesn't cover the content on gallery page for larger screens */
-    margin: 30px 0 auto;
+    margin: 5px 0 auto;
     max-width: 100%;
     /* Ensure it takes all width of the page */
 }
