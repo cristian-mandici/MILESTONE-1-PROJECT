@@ -59,3 +59,25 @@ The project was deployed to GitHub following the next steps :
 * Under "Source", click the dropdown called "None" and select branch "Main" then select folder "root" ;
 * Select "Save" wait 2 minutes and refresh the page
 * Go to top corner left "<> Code" then on the right hand side find "Deployments" then see your deployed link at the top of the page.
+
+
+## Wireframe Reference Guide ##
+
+Attached Wireframes:
+
+## DESKTOP
+![DESKTOP VIEW - INDEX](assets/images/desktop-index.png)
+![DESKTOP VIEW - GALLERY](assets/images/desktop-gallery.png)
+![DESKTOP VIEW - SIGN UP](assets/images/desktop-signup.png)
+
+
+## TABLET
+![TABLET VIEW - INDEX](assets/images/tablet-index.png)
+![TABLET VIEW - GALLERY](assets/images/tablet-gallery.png)
+![TABLET VIEW - SIGN UP](assets/images/tablet-signup.png)
+
+
+## MOBILE
+![MOBILE VIEW - INDEX](assets/images/mobile-index.png)
+![MOBILE VIEW - GALLERY](assets/images/mobile-gallery.png)
+![MOBILE VIEW - SIGN UP](assets/images/mobile-signup.png)
